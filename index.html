@@ -3,9 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teste</title>
+    <title>Home Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    
+    <nav>
+        <a href="#s1">Primeira</a>
+        <a href="#s2">Segunda</a>
+        <a href="#s3">Terceira</a>
+        <a href="#s4">Quarta</a>
+    </nav>
+    <main>
+        <section id="s1">
+            <div class="img-side">
+               <img src="./image.png" alt="Perfil">
+            </div>
+            <div class="text-side">
+             <h1>Carickas</h1>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam repellendus voluptates rem laudantium harum, molestiae nisi saepe aliquid excepturi at velit. Enim incidunt rem facere, laboriosam molestias neque odio dolorem.</p>
+            </div>
+        </section>
+        <section id="s2">
+        <div class="img-side">
+               <img src="./image.png" alt="Perfil">
+            </div>
+            <div class="text-side">
+             <h1>Card 1</h1>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam repellendus voluptates rem laudantium harum, molestiae nisi saepe aliquid excepturi at velit. Enim incidunt rem facere, laboriosam molestias neque odio dolorem.</p>
+            </div>
+        </section>
+        <section id="s3">
+            <div class="img-side">
+               <img src="./image.png" alt="Perfil">
+            </div>
+            <div class="text-side">
+             <h1>Card 2</h1>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam repellendus voluptates rem laudantium harum, molestiae nisi saepe aliquid excepturi at velit. Enim incidunt rem facere, laboriosam molestias neque odio dolorem.</p>
+            </div>
+        </section>
+        <section id="s4">
+            <div class="img-side">
+               <img src="./image.png" alt="Perfil">
+            </div>
+            <div class="text-side">
+             <h1>Card 3</h1>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam repellendus voluptates rem laudantium harum, molestiae nisi saepe aliquid excepturi at velit. Enim incidunt rem facere, laboriosam molestias neque odio dolorem.</p>
+            </div>
+        </section>
+        <section>
+            <h2>Contato</h2>
+            <div class="formulario">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome"
+                placeholder="Insira seu Nome">
+                <label for="assunto">Mensagem</label>
+                <textarea id="assunto" placeholder="Insira sua Mensagem"></textarea>
+                <button onclick="enviar()">Enviar</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <a href=""><i class="fa-brands fa-facebook" target="_blank"></i></a>
+        <a href="https://www.instagram.com/zion021_/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://open.spotify.com/intl-pt/artist/3lZfuTRviXRzmsDsk5XHLU?si=vvA9TYZCTfqXZ5IHhSUZIw" target="_blank"><i class="fa-brands fa-spotify"></i></a>
+        <a href="https://github.com/PedroMendes77" target="_blank"><i class="fa-brands fa-github"></i></a>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>

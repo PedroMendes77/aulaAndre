@@ -18,4 +18,134 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 20px;
+    box-shadow: 0px 3px 10px #090909;
+    z-index: 999;
 }
+
+nav a{
+    color: var(--f1);
+    text-decoration: none;
+    opacity: 0.8;
+    transition: all 200ms;
+    font-size: 22px;
+}
+
+nav a:hover{
+    cursor: pointer;
+    opacity: 1px;
+    text-decoration: underline;
+    transform: scale(1.1);
+    text-shadow: 0px 3px 10px var(--f1);
+}
+
+#s1{
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    padding-top: 80px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+
+.img-side{
+    width: 300px;
+    border-radius: 999px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 3px 10px #090909;
+}
+
+.img-side img{
+    width: 300px;
+    height: 300px;
+    transition: all 200ms linear;
+    filter: grayscale(1);
+}
+
+.img-side img:hover{
+    transform: scale(1.1);
+    filter: grayscale(0);
+}
+
+.text-side{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.text-side h1{
+    font-size: 48px;
+    text-align: left;
+    width: 100%;
+}
+
+.text-side p{
+    font-size: 22px;
+}
+
+#s2{
+    min-height: 100vh;
+    height: auto;
+    padding-top: 80px;
+}
+
+#s3{
+    min-height: 100vh;
+    height: auto;
+    padding-top: 80px;
+}
+
+#s4{
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+
+
+}
+
+.formulario{
+    display: flex;
+    
+}
+
+@media (width <= 1000px){
+    #s1{
+        min-height: 60vh;
+        padding: 100px 20px 20px 20px;
+    }
+    .text-side{
+       height: 300px;
+    }
+}
+
+footer{
+    background-color: var(--dark);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer a{
+    color: var(--f1);
+    text-decoration: none;
+    font-size: 38px;
+    opacity: 0.8;
+    transition: all 200ms ease-in-out;
+}
+
+footer a:hover{
+    opacity: 1;
+    cursor: pointer;
+    transform: translateY(-5px) scale(1.1);
+}
+
